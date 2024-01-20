@@ -31,7 +31,7 @@ jobs:
           context: docker
           file: docker/Dockerfile-tests
           platforms: linux/amd64,linux/arm64
-          push: true
+          push: false
           provenance: false
           tags: |
             ghcr.io/zaproxy/zaproxy:tests
